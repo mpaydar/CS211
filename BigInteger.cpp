@@ -60,11 +60,11 @@ string AddInteger(string a,string b)
 	int carry=0;
 	int sum=0;
 
-	int First_array [a_length]={0};
-	int Second_array[b_length]={0};
+	int First_array [a_length];
+	int Second_array[b_length];
 
-	char array1[a_length]={0};
-	char array2[b_length]={0};
+	char array1[a_length];
+	char array2[b_length];
 
 // Step 1
 // conversion char [] array1 -- int [] First_array
